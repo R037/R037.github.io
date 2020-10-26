@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'InconsolaTa';font-size: 24px; color: #b3b3b3;
+}
+body {
+    background-color: #f2f2f2;
+}
+
+/* unvisited link */
+a:link {
+    color: r#b3b3b3;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #b3b3b3;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #8c8c8c;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #808080;
+  }
